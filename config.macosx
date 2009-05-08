@@ -1,0 +1,8 @@
+# System's libraries directory (where binary libraries are installed)
+LUA_LIBDIR= $(INSTALL_TOP)/lib/lua/5.1
+# System's lua directory (where Lua libraries are installed)
+LUA_SHAREDIR=$(INSTALL_TOP)/share/lua/5.1
+
+INSTALL_DATA=cp
+INSTALL_EXEC=cp
+
